@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradiente em CSS</title>
+    <style>
+      * {
+        /*configurações globais das CSS*/
+        height: 100%;
+      }
+      body {
+        background-image: linear-gradient(
+          to bottom,
+          hsl(210, 100%, 50%),
+          hsl(210, 100%, 40%),
+          hsl(210, 100%, 30%),
+          hsl(210, 100%, 20%)
+        );
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testando gradiente</h1>
+  </body>
+</html>
